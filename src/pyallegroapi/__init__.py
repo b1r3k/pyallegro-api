@@ -1,0 +1,1 @@
+from pyallegroapi import SOAPClient
