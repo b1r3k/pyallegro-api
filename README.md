@@ -15,14 +15,14 @@ Just `python setup.py install`
 
 ## Usage
 
-`
+```python
 from pyallegroapi import SOAPClient
 
 api = SOAPClient()
 api.login('username', 'plain_password', 'apikey')
 results = api.doShowCat(catId=54003)
 print(results)
-`
+```
 
 ## Tests
 
